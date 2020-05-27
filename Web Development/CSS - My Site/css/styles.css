@@ -3,41 +3,100 @@ body {
   margin: 0;
 }
 
-h1 {
-  font-size: 50px;
+h1, h2 {
+  color: #222831;
   font-family: helvetica;
-}
-
-h2 {
-  font-family: helvetica;
+  font-size: 2.5rem;
 }
 
 h3 {
-  font-family: 'Anonymous Pro', monospace;
+  font-family: helvetica;
+  font-size: 2rem;
 }
-
 p {
   font-family: 'Questrial', sans-serif;
+  font-size: 1.5rem;
 }
+
+a {
+  color: #11999E;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-width: 10px;
+  width: 10%;
+}
+
 .top-container {
   background-color: #cff1ef;
-  padding-top: 100px;
+  padding-top: 120px;
   position: relative;
 }
 
+.profile {
+  margin-bottom: 150px;
+}
+
+.header {
+  font-size: 5.62rem;
+}
+
+.sub-header {
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
 .top-cloud {
-  right: 35%;
+  right: 30%;
   position: absolute;
   top: 50px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 35%;
+  left: 25%;
   bottom: 300px;
+}
+
+.middle-container {
+  margin-top: 150px;
 }
 
 .profile-pic {
   border-radius: 200px;
   width: 250px;
+}
+
+.skills {
+  margin-top: 150px;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 100px auto 200px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.front-end {
+  float: left;
+  margin-right: 5%;
+  width: 25%;
+}
+
+.back-end {
+  float: right;
+  margin-left: 5%;
+  width: 25%;
+}
+
+.skill {
+  position: relative;
+  top: 50px;
+}
+
+.contact-me {
+  margin-top: 100px;
 }
