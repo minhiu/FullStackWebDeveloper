@@ -1,0 +1,30 @@
+body {
+  background-color: #cbf1f5;
+}
+
+hr {
+  /*
+  background-color: #cbf1f5;
+  border-color: gray;
+  border-style: dotted none none;
+  border-width: 10px;
+  width: 100%;
+  text-align: left;
+  margin-left: 0;
+  */
+}
+
+h1, h3 {
+  color: #364f6b;
+  font-family: serif;
+}
+
+img {
+  width: 250px;
+}
+img:hover {
+  width: 500px;
+}
+p, ul, ol, table, li {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
