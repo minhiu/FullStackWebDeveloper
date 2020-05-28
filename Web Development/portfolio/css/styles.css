@@ -1,15 +1,26 @@
 @media only screen
 and (max-width : 400px) {
   body {
-    width: 100%;
+    width: 100% !important;
   }
   .top-container {
-    width: 100%;
+    width: 100% !important;
   }
 
-  .bottom-container {
-    width: 50%;
-    margin: 0 auto 0 auto;
+  .header {
+    font-size: 4em !important;
+  }
+
+  .middle-container {
+    width: 90% !important;
+  }
+
+  .bottom-cloud {
+    display: none;
+  }
+
+  .profile-pic {
+    width: 50% !important;
   }
 }
 
@@ -26,7 +37,7 @@ h1, h2 {
 
 h3 {
   color: #2997ff;
-  font-family: helvetica;
+  font-family: 'Anonymous Pro', monospace;
   font-size: 1.5rem;
 }
 p {
@@ -40,7 +51,7 @@ a {
 
 hr {
   border-style: dotted none none none;
-  border-width: 10px;
+  border-width: 0.5em;
   width: 10%;
 }
 
@@ -55,25 +66,30 @@ table {
 }
 
 .header {
-  font-size: 5.62rem;
+  font-size: 5.62em;
 }
 
 .sub-header {
   font-family: 'Anonymous Pro', monospace;
-  font-size: 2.5rem;
+  font-size: 2.5em;
   font-weight: normal;
 }
 
 .top-cloud {
   right: 30%;
   position: absolute;
-  top: 50px;
+  top: 7%;
 }
 
 .bottom-cloud {
   position: absolute;
   left: 25%;
-  bottom: 300px;
+  top: 55%;
+}
+
+.moutain {
+  max-width:100%;
+  max-height:100%;
 }
 
 .middle-container {
@@ -86,8 +102,8 @@ table {
 }
 
 .profile-pic {
-  border-radius: 200px;
-  width: 250px;
+  border-radius: 100%;
+  width: 30%;
 }
 
 .skills {
@@ -126,7 +142,7 @@ table {
 }
 
 .back-end-skill {
-  text-align: left;
+  text-align: justify;
 }
 
 .contact-me {
@@ -134,15 +150,15 @@ table {
 }
 
 .contact-p {
-  height: 100px;
+  height: 100%;
 }
 
 .resume-button {
   background: #CFF1EF;
   background-image: -webkit-linear-gradient(top, #CFF1EF, #CFF1EF);
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
   color: #222831;
   font-family: monospace;
   font-size: 2em;
@@ -160,13 +176,14 @@ table {
 }
 
 .resume-button:hover {
-  border: solid #337FED 1px;
-  background: #1E62D0;
-  background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
+  border: solid #337FED 1px;
+  background: #1E62D0;
+  background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
   text-decoration: none;
+  color: white;
   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
@@ -176,7 +193,7 @@ table {
 
 .bottom-container {
   background-color: #cff1ef;
-  margin: 100px auto 0 auto;
+  margin: 5% auto 0 auto;
   padding: 50px;
   text-align: center;
 }
