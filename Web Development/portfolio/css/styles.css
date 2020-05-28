@@ -1,8 +1,10 @@
 @media only screen
-and (max-width : 320px) {
+and (max-width : 400px) {
+  body {
+    width: 100%;
+  }
   .top-container {
-      width: 50%;
-      margin: 0 auto 0 auto;
+    width: 100%;
   }
 
   .bottom-container {
@@ -121,6 +123,10 @@ table {
 
 .back-end-skill-header {
   text-align: right;
+}
+
+.back-end-skill {
+  text-align: left;
 }
 
 .contact-me {
