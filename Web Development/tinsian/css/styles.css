@@ -1,0 +1,46 @@
+#title {
+  background-color: #ff4c68;
+}
+
+.header-img {
+  text-align: center;
+  width: 33%;
+}
+
+.header-first-row {
+  margin-bottom: 10%;
+}
+
+.header-approval {
+  text-align: center;
+}
+
+.header-bio {
+  font-style: italic;
+  text-align: center;
+}
+
+.bio-swipe-left {
+  text-decoration: line-through;
+}
+
+.header-bio-location {
+  font-weight: bold;
+  text-align: center;
+}
+
+.white_man_smile {
+  width: 45%;
+  border-radius: 100%;
+}
+
+.black_man_smile {
+  width: 45%;
+  background-color: white;
+  border-radius: 100%;
+}
+
+.asian_man_smile {
+  width: 45%;
+  border-radius: 100%;
+}
