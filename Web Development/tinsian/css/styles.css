@@ -8,8 +8,17 @@ h1 {
   line-height: 1.5;
 }
 
+i {
+  size: 30px;
+}
+
 #title {
   background-color: #ff4c68;
+  position: relative;
+}
+
+#features {
+  width: 100%;
 }
 
 .container-fluid {
@@ -74,6 +83,10 @@ h1 {
 .asian_man_smile {
   width: 45%;
   border-radius: 100%;
+}
+
+.testimony-table{
+  margin: 5% auto;
 }
 
 .testimony {
