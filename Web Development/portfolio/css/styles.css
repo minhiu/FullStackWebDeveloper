@@ -80,6 +80,18 @@ table {
   font-size: 5.62em;
   position: relative;
   z-index: 2;
+  animation-name: header-animation;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes header-animation {
+  0% {
+    opacity: 0;
+  } 100% {
+    opacity: 1;
+  }
 }
 
 .sub-header {
@@ -88,17 +100,29 @@ table {
   font-weight: normal;
   position: relative;
   z-index: 2;
+  animation-name: subheader-animation;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes subheader-animation {
+  0% {
+    opacity: 0;
+  } 100% {
+    opacity: 1;
+  }
 }
 
 .top-cloud {
   right: 105%;
   position: absolute;
   top: 7%;
+  z-index: 2;
   animation-name: top-cloud-slide;
   animation-duration: 3s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
-  z-index: 1;
 }
 
 @keyframes top-cloud-slide {
@@ -111,11 +135,12 @@ table {
   position: absolute;
   left: 105%;
   top: 55%;
+  z-index: 2;
   animation-name: bottom-cloud-slide;
   animation-duration: 3s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
-  z-index: 1;
+
 }
 
 @keyframes bottom-cloud-slide {
@@ -130,11 +155,11 @@ table {
   width: 15%;
   right: 5%;
   top: 90%;
+  z-index: 1;
   animation-name: sunrise;
   animation-duration: 3s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
-  z-index: 1;
 }
 
 @keyframes sunrise {
@@ -151,6 +176,18 @@ table {
   max-height: 100%;
   position: relative;
   z-index: 2;
+  animation-name: mountain-animation;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes mountain-animation {
+  0% {
+    opacity: 0;
+  } 100% {
+    opacity: 1;
+  }
 }
 
 .middle-container {
