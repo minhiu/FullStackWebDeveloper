@@ -3,6 +3,7 @@ and (max-width : 400px) {
   body {
     width: 100% !important;
   }
+
   .top-container {
     width: 100% !important;
   }
@@ -60,45 +61,146 @@ table {
 }
 
 .top-container {
-  background-color: #cff1ef;
+  background-color: #000000;
   padding-top: 120px;
   position: relative;
+  animation-name: sunrise-background;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  z-index: 1;
+}
+
+@keyframes sunrise-background {
+  from {background-color: #000000;}
+  to {background-color: #cff1ef;}
 }
 
 .header {
   font-size: 5.62em;
+  position: relative;
+  z-index: 2;
+  animation-name: header-animation;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes header-animation {
+  0% {
+    opacity: 0;
+  } 100% {
+    opacity: 1;
+  }
 }
 
 .sub-header {
   font-family: 'Anonymous Pro', monospace;
   font-size: 2.5em;
   font-weight: normal;
+  position: relative;
+  z-index: 2;
+  animation-name: subheader-animation;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes subheader-animation {
+  0% {
+    opacity: 0;
+  } 100% {
+    opacity: 1;
+  }
 }
 
 .top-cloud {
-  right: 30%;
+  right: 105%;
   position: absolute;
   top: 7%;
+  z-index: 2;
+  animation-name: top-cloud-slide;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes top-cloud-slide {
+  100% {
+    right: 30%;
+  }
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 25%;
+  left: 105%;
   top: 55%;
+  z-index: 2;
+  animation-name: bottom-cloud-slide;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes bottom-cloud-slide {
+  100% {
+    left: 25%;
+  }
+}
+
+.sun {
+  position: absolute;
+  margin: auto;
+  width: 15%;
+  right: 5%;
+  top: 90%;
+  z-index: 1;
+  animation-name: sunrise;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes sunrise {
+  0% {
+    opacity: 0;
+  } 100% {
+    opacity: 1;
+    top: 5%;
+  }
 }
 
 .moutain {
-  max-width:100%;
-  max-height:100%;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  z-index: 2;
+  animation-name: mountain-animation;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes mountain-animation {
+  0% {
+    opacity: 0;
+  } 100% {
+    opacity: 1;
+  }
 }
 
 .middle-container {
   width: 50%;
   margin: 5% auto 0 auto;
+  position: relative;
+  z-index: 2;
 }
 
 .profile {
   margin: 0 auto 10% auto;
+  position: relative;
+  z-index: 2;
 }
 
 .profile-pic {
