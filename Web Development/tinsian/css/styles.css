@@ -139,3 +139,18 @@ hr {
 .icon:hover {
   color: #ff1e56;
 }
+
+#testimonials {
+  margin: 10% auto 0 auto;
+  text-align: center;
+}
+
+.testimonial-div {
+  display: flex;
+  justify-content: center;
+  margin: 5% auto;
+}
+
+.testimonial-img {
+  width: 50%;
+}
