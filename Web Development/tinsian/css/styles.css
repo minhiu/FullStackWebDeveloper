@@ -146,11 +146,17 @@ hr {
 }
 
 .testimonial-div {
-  display: flex;
+  align-items: center;
+  display: grid;
   justify-content: center;
   margin: 5% auto;
 }
 
 .testimonial-img {
-  width: 50%;
+  margin: 5% auto 0 auto;
+  width: 70%;
+}
+
+.testimonial-p {
+  padding: 2%;
 }
