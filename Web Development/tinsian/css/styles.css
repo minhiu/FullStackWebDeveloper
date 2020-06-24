@@ -73,6 +73,7 @@ hr {
 #prospects {
   position: relative;
   margin: 10% auto 0 auto;
+  padding: 0 5%;
 }
 
 .prospects-row {
@@ -123,7 +124,9 @@ hr {
 }
 
 #features {
-  margin: 10% auto 0 auto;
+  background-color: #eeeeee;
+  margin: 0 auto;
+  padding: 10% 5% 0 5%;
 }
 
 .feature-div {
@@ -153,8 +156,8 @@ hr {
 }
 
 .testimonial-img {
-  margin: 5% auto 0 auto;
-  width: 70%;
+  margin: 0 auto;
+  width: 50%;
 }
 
 .testimonial-p {
