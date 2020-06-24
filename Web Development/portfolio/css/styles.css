@@ -41,6 +41,7 @@ h3 {
   font-family: 'Anonymous Pro', monospace;
   font-size: 1.5rem;
 }
+
 p {
   font-family: 'Questrial', sans-serif;
   font-size: 1.5rem;
@@ -208,6 +209,10 @@ table {
   width: 30%;
 }
 
+.bio {
+  line-height: 2rem;
+}
+
 .skills {
   margin: 10% 0 10% 0;
 }
@@ -245,6 +250,11 @@ table {
 
 .back-end-skill {
   text-align: justify;
+}
+
+.disclaimer {
+  text-align: left;
+  font-size: 1rem;
 }
 
 .contact-me {
