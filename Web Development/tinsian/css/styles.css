@@ -126,12 +126,12 @@ hr {
 #features {
   background-color: #eeeeee;
   margin: 0 auto;
-  padding: 10% 5% 0 5%;
+  padding: 10% 5% 5% 5%;
 }
 
 .feature-div {
   text-align: center;
-  margin: 5% auto;
+  margin: 10% auto;
 }
 
 .icon {
@@ -150,14 +150,13 @@ hr {
 
 .testimonial-div {
   align-items: center;
-  display: grid;
-  justify-content: center;
-  margin: 5% auto;
+  padding: 5% 5%;
 }
 
 .testimonial-img {
+  padding: 0 10%;
   margin: 0 auto;
-  width: 50%;
+  width: 20%;
 }
 
 .testimonial-p {
