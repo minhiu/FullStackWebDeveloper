@@ -159,6 +159,20 @@ hr {
   width: 20%;
 }
 
+.testimonial-col-div {
+  position: relative;
+}
+
 .testimonial-p {
-  padding: 2%;
+  text-align: center !important;
+  margin-bottom: 10%;
+}
+
+#press {
+  text-align: center;
+}
+
+.press-logo {
+  margin: 2.5%;
+  width: 25%;
 }
