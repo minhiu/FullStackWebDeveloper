@@ -165,14 +165,33 @@ hr {
 
 .testimonial-p {
   text-align: center !important;
-  margin-bottom: 10%;
+  margin: 10% 0;
 }
 
 #press {
+  height: 120px;
   text-align: center;
 }
 
 .press-logo {
-  margin: 2.5%;
-  width: 25%;
+  width: 50%;
+}
+
+#pricing {
+  padding: 10%;
+  background-color: #eeeeee;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 5% 1%;
+}
+
+.card-header-h3 {
+  font-size: 2rem;
+}
+
+.card-body-h4{
+  color: #222831;
+  font-size: 3rem;
 }
