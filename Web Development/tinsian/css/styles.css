@@ -41,7 +41,7 @@ hr {
 }
 
 .container-fluid-1 {
-  padding: 3% 10%;
+  padding: 3% 10% 15%;
 }
 
 .navbar-brand {
@@ -60,20 +60,20 @@ hr {
 }
 
 .btn {
-  margin: 5% 0;
+  margin: 5% 2.5% 5% 0;
 }
 
 .model-img {
-  position: relative;
+  position: absolute;
   margin: 5% auto 5% 25%;
-  width: 35%;
+  width: 50%;
   transform: rotate(25deg);
 }
 
 #prospects {
+  background-color: #222831;
   position: relative;
-  margin: 10% auto 0 auto;
-  padding: 0 5%;
+  padding: 10% 5% 0 5%;
 }
 
 .prospects-row {
