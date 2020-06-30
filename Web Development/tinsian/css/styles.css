@@ -1,3 +1,16 @@
+@media (max-width: 991px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .model-img {
+    position: relative !important;
+    transform: rotate(0) !important;
+    margin: 5% auto 0 auto !important;
+  }
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #222831;
@@ -154,9 +167,9 @@ hr {
 }
 
 .testimonial-img {
+  border-radius: 30%;
   padding: 0 10%;
   margin: 0 auto;
-  width: 20%;
 }
 
 .testimonial-col-div {
@@ -191,7 +204,25 @@ hr {
   font-size: 2rem;
 }
 
-.card-body-h4{
+.card-body-h4 {
   color: #222831;
   font-size: 3rem;
+}
+
+#cta {
+  background-color: #222831;
+  padding: 10% 5% 2.5% 5%;
+  text-align: center;
+}
+
+#footer {
+  padding: 5% 0 2.5% 0;
+  background-color: #eeeeee;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.fa-facebook-square, .fa-twitter-square, .fa-youtube-square, .fa-envelope-square {
+  font-size: 1.5rem;
+  margin: 0 0.5% 0.5% 0.5%;
 }
