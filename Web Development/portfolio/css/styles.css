@@ -1,5 +1,5 @@
 @media only screen
-and (max-width : 400px) {
+and (max-width : 783px) {
   body {
     width: 100% !important;
   }
@@ -36,6 +36,10 @@ h1, h2 {
   font-size: 2.5rem;
 }
 
+h2 {
+  color: #3d84a8;
+}
+
 h3 {
   color: #2997ff;
   font-family: 'Anonymous Pro', monospace;
@@ -61,6 +65,7 @@ table {
   margin: 0 auto 0 auto;
 }
 
+/* Top Container */
 .top-container {
   background-color: #000000;
   padding-top: 120px;
@@ -191,6 +196,7 @@ table {
   }
 }
 
+/* Middile Container */
 .middle-container {
   width: 50%;
   margin: 5% auto 0 auto;
@@ -198,6 +204,7 @@ table {
   z-index: 2;
 }
 
+/* Profile */
 .profile {
   margin: 0 auto 10% auto;
   position: relative;
@@ -213,6 +220,7 @@ table {
   line-height: 2rem;
 }
 
+/* Skills */
 .skills {
   margin: 10% 0 10% 0;
 }
@@ -257,6 +265,29 @@ table {
   font-size: 1rem;
 }
 
+/* Projects */
+.projects {
+  margin: 10% auto 10% auto;
+}
+
+.tinsian-logo {
+  color: #222831;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.tinsian-description {
+  font-style: italic;
+  display: inline-block;
+}
+
+.tinsian-main-pic {
+  width: 100%;
+}
+
+/* Contact */
 .contact-me {
   margin: 10% auto 10% auto;
 }
@@ -303,6 +334,7 @@ table {
   
 }
 
+/* Bottom Container */
 .bottom-container {
   background-color: #cff1ef;
   margin: 5% auto 0 auto;
