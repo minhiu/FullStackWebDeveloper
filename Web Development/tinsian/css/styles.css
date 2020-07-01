@@ -164,6 +164,7 @@ hr {
 .testimonial-div {
   align-items: center;
   padding: 5% 5%;
+  margin: 0;
 }
 
 .testimonial-img {
