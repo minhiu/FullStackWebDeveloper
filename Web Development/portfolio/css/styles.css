@@ -271,11 +271,15 @@ table {
 }
 
 .tinsian-logo {
-  color: #222831;
+  color: #ff4c68;
   font-family: 'Ubuntu', sans-serif;
   font-size: 2em;
   font-weight: bold;
   display: inline-block;
+}
+
+.tinsian-logo:hover {
+  color: #222831;
 }
 
 .tinsian-description {
