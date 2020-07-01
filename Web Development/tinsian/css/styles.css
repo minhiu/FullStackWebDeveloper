@@ -1,5 +1,4 @@
 @media (max-width: 991px) {
-
   #title {
     text-align: center;
   }
@@ -8,6 +7,12 @@
     position: relative !important;
     transform: rotate(0) !important;
     margin: 5% auto 0 auto !important;
+  }
+}
+
+@media (max-width: 769px) {
+  .navbar-brand {
+    font-size: 1.5em !important;
   }
 }
 
