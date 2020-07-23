@@ -79,3 +79,9 @@ footer {
   margin: 10px;
   background-color: white;
 }
+
+.author {
+  color: #ffe8df;
+  display: inline-block;
+  font-family: 'Source Code Pro', monospace;
+}
