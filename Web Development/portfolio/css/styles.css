@@ -270,6 +270,10 @@ table {
   margin: 10% auto 10% auto;
 }
 
+.tinsian-project {
+  margin-bottom: 10%;
+}
+
 .tinsian-logo {
   color: #ff4c68;
   font-family: 'Ubuntu', sans-serif;
@@ -288,6 +292,26 @@ table {
 }
 
 .tinsian-main-pic {
+  width: 100%;
+}
+
+.drum-kit-logo {
+  font-size: 2rem;
+  color: #222831;
+  display: inline-block;
+  font-family: "Arvo", cursive;
+}
+
+.drum-kit-logo:hover {
+  color: #00adb5;
+}
+
+.drum-kit-description {
+  display: inline-block;
+  font-style: italic;
+}
+
+.drum-kit-main-pic {
   width: 100%;
 }
 
