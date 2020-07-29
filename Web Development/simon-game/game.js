@@ -86,13 +86,18 @@ function gameOver() {
  * jQuery controls when the user clicks to play current game
  */
 $(".btn").click(function() {
-  // Get color by element
-  var userChosenColor = $(this).attr("id");
-  // Push each move to the UserPattern
-  userPattern.push(userChosenColor);
-  animatePress(userChosenColor);
-  // Check answers for every move
-  checkAnswers(userPattern.length - 1);
+  // If game hasn't started, then do it.
+  if (gamePattern.length === 0)
+    nextSequence();
+  else {
+    // Get color by element
+    var userChosenColor = $(this).attr("id");
+    // Push each move to the UserPattern
+    userPattern.push(userChosenColor);
+    animatePress(userChosenColor);
+    // Check answers for every move
+    checkAnswers(userPattern.length - 1);
+  }
 });
 
 /*
