@@ -323,9 +323,6 @@ table {
 
 .resume-button {
   background: #CFF1EF;
-  background-image: -webkit-linear-gradient(top, #CFF1EF, #CFF1EF);
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
   border-radius: 30px;
   color: #222831;
   font-family: monospace;
@@ -336,27 +333,11 @@ table {
   display: inline-block;
   cursor: pointer;
   text-align: center;
-  background-image: -moz-linear-gradient(top, #CFF1EF, #CFF1EF);
-  background-image: -ms-linear-gradient(top, #CFF1EF, #CFF1EF);
-  background-image: -o-linear-gradient(top, #CFF1EF, #CFF1EF);
-  background-image: linear-gradient(to bottom, #CFF1EF, #CFF1EF);
-  
 }
 
 .resume-button:hover {
-  border: solid #337FED 1px;
   background: #1E62D0;
-  background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  border-radius: 30px;
-  text-decoration: none;
   color: white;
-  background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
-  background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
-  background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
-  background-image: linear-gradient(to bottom, #1E62D0, #3D94F6);
-  
 }
 
 /* Bottom Container */
